@@ -1,0 +1,6 @@
+.navbar {
+    background-color: #191919;
+    height: 120px;
+    position: fixed;
+    z-index: 2;
+}

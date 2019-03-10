@@ -1,0 +1,5 @@
+{
+    "editor.wordWrap": "on",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.macOptionClickForcesSelection": true
+}
