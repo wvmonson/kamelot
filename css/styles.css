@@ -4,3 +4,19 @@
     position: fixed;
     z-index: 2;
 }
+
+.logo {
+    height: 100px;
+}
+
+.nav {
+    margin-top: 22px;
+}
+
+.nav>li {   
+    height: 75px;
+    width: 125px;
+    border: white solid 2px;
+    margin-right: 5px;
+    border-radius: 10%;
+}
