@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative');
 
-/* Nav Bar */
+/* @font-face {
+    font-family: Viking_N;
+    src: url('../fonts/viking_n.tff');
+} */
 
+/* Being Global Stles */
+
+body {
+    background-color: #000;
+    color: white;
+}
+
+/* End Global Styles */
+
+/* Begin Nav Bar styles */
 .navbar {
     background-color: #191919;
     height: 120px;
@@ -9,7 +22,7 @@
     z-index: 2;
 }
 
-.logo {
+#logo {
     height: 100px;
 }
 
@@ -17,15 +30,121 @@
     margin-top: 22px;
 }
 
-.nav>li {   
-    height: 55px;
-    width: auto;
-    border: white solid 2px;
-    margin-top: 8px;
-    margin-right: 10px;
-    border-radius: 8%;
-    font-size: 20px;    
-    font-family: 'Cinzel Decorative', cursive;
+/* .nav>li {    */
+    /* height: 40px;
+    width: 162px;
+    padding: 5px 10px 5px 10px;    */
+    /* margin: 30px 10px; */
+    /* border: white solid 2px; */
+    /* border-radius: 8%; */
+    /* font-size: 20px;     */
+    /* font-family: 'Cinzel Decorative', cursive; */
+    /* text-align: center; */
+    /* text-decoration: none; */
+/* } */
+
+/* #about, #contact, #tour {
+    font-family: "Viking_N";
+} */
+
+/* End Nav Styles */
+
+
+/* Begin Banner Styles */
+
+#banner {
+    /* margin-top: 100px;
+    height: 500px;
+    padding-top: 20px; */
+    background-image: url('../img/kambanner.jpg');
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+
+    display: flex;
+    align-items: center;
     text-align: center;
-    text-decoration: none;
+    width: 100%;
+    height: 100vh;
+  }
+
+  /* .hero-text {
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 17px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+} */
+
+/* End Banner Styles */
+
+/* Begin Content Styles */
+
+#content {
+    float: left;
 }
+
+#content_img, #content_text {
+    /* border: 3px ridge red; */
+    position: relative;
+    font-family: 'Cinzel', serif;
+}
+
+
+/* .img-text, .content-img1 {
+    width: 30%;
+    border: 3px solid red;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    font-family: 'Anonymous Pro', monospace;
+} */
+
+/* End Content Styles */
+
+
+/* Begin Footer Styles */
+
+#footer {
+    background-color: #000000;
+    height: 125px;
+    position: relative;
+}
+
+/* #copyright {
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+#social {
+    position: absolute;
+    color: #FFFFFF;
+    left: 2%;
+    top: 30%;
+}
+
+.fab {
+    font-size: 54px;
+}
+
+.fa-facebook {  
+    color: #3B5998;
+}
+
+.fa-instagram {
+    color: red;
+}
+
+.input {
+    position: absolute;
+    right: 2%;
+    top: 45%;
+} */
+
+/* End Footer Styles */
+
+
+/* Begin Mobile Friendly Styles */
