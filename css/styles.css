@@ -2,48 +2,58 @@
 
 @font-face {
     font-family: "viking";
-    src: url('../fonts/viking_n.ttf');
+    src: url('../fonts/viking.ttf');
 }
-
-/* Being Global Stles */
+/* Global Stles */
 
 body {
     background-color: #000;
-    color: white;
+    color: #fff;
     font-family: "Cinzel";
 }
 
-/* End Global Styles */
+.nav-spacer {
+    margin-top: 120px;
+}
 
-/* Begin Nav Bar styles */
+.contaier, .container-fluid {
+    display: flex;
+}
+
+/* Nav Bar styles */
+
 .navbar {
     background-color: #191919;
     height: 120px;
-    /* position: fixed; */
-    /* z-index: 2; */
 }
 
 #logo {
-    height: 100px;
+    height: 90px;
+    width: auto;
 }
 
 .nav {
     margin-top: 22px;
 }
 
+.nav>li>a {
+    color: #fff;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #191919;
+    color: red;
+}
+
 .nav > li {    
-    height: 40px;
-    width: 162px;
-    /* padding: 5px 10px 5px 10px;     */
-    /* margin: 30px 10px; */
-    /*   */
-    /* border-radius: 8%; */
+    height: 20px;
+    width: auto;
+    /* margin: 25px 10px; */
+    justify-content: flex-end;
     font-size: 20px;    
-    /* font-family: 'Cinzel Decorative', cursive; */
+    font-family: 'Cinzel Decorative', cursive;
     text-align: center;
     text-decoration: none;
-    font-family: "viking" !important; 
-    color: red;
 }
 
 /* End Nav Styles */
@@ -51,22 +61,10 @@ body {
 
 /* Begin Banner Styles */
 
-/* #banner { */
-    /* margin-top: 100px;
+#banner { 
     height: 500px;
-    padding-top: 20px; */
-    /* background-image: url('../img/kambanner.jpg'); */
-    /* background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
-
-    /* display: flex;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-  } */
+    /* position: relative; */
+}
 
   /* .hero-text {
     color: white;
@@ -80,13 +78,14 @@ body {
 
 /* Begin Content Styles */
 
-/* #content {
-    float: left;
+#content {
+    display: flex;
 }
 
 #content_img, #content_text {
-    /* border: 3px ridge red; */
-    /* position: relative;
+    border: 3px ridge red;
+    justify-content: center;
+    position: relative;
     font-family: 'Cinzel', serif;
 } */
 
@@ -97,8 +96,7 @@ body {
     margin-left: 10px;
     margin-top: 10px;
     float: left;
-    font-family: 'Anonymous Pro', monospace;
-} */
+}
 
 /* End Content Styles */
 
@@ -147,3 +145,9 @@ body {
 
 
 /* Begin Mobile Friendly Styles */
+
+@media only screen and (max-width: 810px) {
+    #banner {
+      display:  none;
+    }
+  }
